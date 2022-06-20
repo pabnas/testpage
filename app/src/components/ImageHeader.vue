@@ -1,12 +1,22 @@
 <template>
-  <div>
-    <img
-      src="https://d15mvavv27jnvy.cloudfront.net//70de6c5b5efac9e61fd856691fb5854e.jpg"
-      alt="image"
-      class="img-thumbnail rounded-circle img-fluid"
-      style="height: 150px"
-    />
-    <p class="mt-3 fw-bold">@bazar.de.belleza</p>
+  <div class="imgBG">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <img
+            src="@/assets/img/photo2.jpg"
+            alt="image"
+            class="rounded img-fluid my-3"
+            style="height: 80vh"
+          />
+        </div>
+        <div class="col justify-content-center">
+          <p class="fs-1 mt-3 fw-bold text-white text-shadow">
+            Valeria Montoya Real
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,3 +25,18 @@ export default {
   name: "ImageHeader",
 };
 </script>
+
+<style scoped lang="scss">
+.imgBG {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 3px black, 0 0 1em black, 0 0 0.2em black;
+}
+</style>
