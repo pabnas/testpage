@@ -2,12 +2,11 @@
   <div class="imgBG">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <img
             src="@/assets/img/photo2.jpg"
             alt="image"
-            class="rounded img-fluid my-3"
-            style="height: 80vh"
+            class="rounded img-fluid my-3 w-50"
           />
         </div>
         <div class="col justify-content-center">
